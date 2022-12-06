@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  template-forge-1.12.2:
+    container_name: template-forge-1.12.2
+    image: template-forge-1.12.2
+    volumes:
+      - ./worlds/template-forge-1.12.2:/worlds
+    ports:
+      - "25565:25565"
