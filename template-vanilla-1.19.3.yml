@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  template-vanilla-1.19.3:
+    container_name: template-vanilla-1.19.3
+    image: template-vanilla-1.19.3
+    volumes:
+      - ./worlds/template-vanilla-1.19.3:/worlds
+    ports:
+      - "25565:25565"
